@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace W4D3__Training_Ses_3
 {
-    public class GenClass<T> where T : 
+    public class MyClass
+    {
+
+    }
+    
+    
+    public class GenClass<T> where T : MyClass { }
     {
         T var1;
         T var2;
